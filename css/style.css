@@ -3,13 +3,13 @@ html, body{
 }
 	
 body{
-	background: url("bg.jpg");
+	/* background: url("bg.jpg"); */
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
 
 
-	background-position: center;
+	background-position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -82,18 +82,37 @@ header{
     top: px;
     
     font-family: Tauri;
-    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 36px;
     line-height: 80px;
     text-align: left;
     
     
+
+  }
+
+
+  #quote{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 230px;
+    top: 27px;
+    
+    font-family: Tauri;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: left;
+    
   }
 /***************************/
 /* Styling Navigation Menu */
 /***************************/
 #menu{
+	margin-top: 10px;;
 	float: right;
 	width: 70%;
 	height: 100%;
@@ -138,23 +157,63 @@ header{
 	text-decoration: none;
 }
 
-.donate{
-    position: absolute;
-width: 524px;
-height: 130px;
 
-top: 801px;
-color: bisque;
-background: #0A0000;
-mix-blend-mode: normal;
-opacity: 0.75;
-border-radius: 10px;
-align-self: center;
-  }
-  #cta{
-	  align-self: center;
-	  size: 78px;
-	  
-  }
+.mySlides{
+	width:100%;
+	height:650px;
+}
+  
+
+#final{
+	/* margin-top: 1750px;; */
+	
+	margin-right: 500px;
+	width: 70%;
+	height: 100%;
+	margin: none;
+	
+}
+	
+#final ul{
+	text-align: center;
+	float: right;
+	margin-right: 250px;
+	margin-top: 25px;
+	background: #1d1b1a;
+	mix-blend-mode: multiply;
+	border-radius: 15px;
+	
+}
+	
+#final li{
+	display: inline-block;
+	padding: none;
+	margin: none;
+}
+	
+#final li a, #final li span{
+	/* display: inline-block; */
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+	
+#final li a{
+		
+	color: #FFF;
+}
+	
+#final li:hover a, #final li span{
+	background: #FFF;
+	color: #0074D9;
+	border-left: 8px solid #0074D9;
+	border-right: 0px solid #0074D9;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	
+	text-decoration: none;
+}
 
   
